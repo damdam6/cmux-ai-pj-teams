@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+.pytest_cache/
+*.pyc
+.local-maintenance/
+**/config.local.json
+**/repo-aliases.local.json
+**/repo-aliases.local.json.lock
+**/.repo-aliases.local.json.*.tmp
+**/launchers.local.json
+**/servers.local.json

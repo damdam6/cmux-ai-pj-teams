@@ -1,0 +1,1 @@
+[pj-event-ready] project={PROJECT} slug={SLUG} source={SOURCE} event={EVENT_ID} required_action=read-event-then-execute-review.reply-before-ending Before reviewing, reload the current instructions by running: {PJ_CMUX} event prompt --slug {SLUG} --event-id {EVENT_ID}

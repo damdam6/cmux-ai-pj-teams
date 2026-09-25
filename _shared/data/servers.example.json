@@ -1,0 +1,24 @@
+{
+  "backend": {
+    "directory": "backend",
+    "command": ["npm", "run", "dev"],
+    "install": ["npm", "install"],
+    "installMarker": "node_modules",
+    "env": {"PORT": "{BE_PORT}"},
+    "preserveEnv": [],
+    "healthPath": "/health"
+  },
+  "frontend": {
+    "directory": "frontend",
+    "command": ["npm", "run", "dev", "--", "--port", "{FE_PORT}", "--strictPort"],
+    "install": ["npm", "install"],
+    "installMarker": "node_modules",
+    "env": {"VITE_BASE_API_URL": "{BE_URL}"},
+    "preserveEnv": [],
+    "healthPath": "/"
+  },
+  "ports": {"backend": 5000, "frontend": 3100, "count": 10},
+  "requiredPorts": [],
+  "database": {"mode": "configure"},
+  "timeout": 900
+}

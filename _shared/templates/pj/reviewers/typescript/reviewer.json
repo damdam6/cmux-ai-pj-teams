@@ -1,0 +1,17 @@
+{
+  "title": "TypeScript 리뷰어 — 타입 안전성·async 정확성·관용구",
+  "when": "타입 경계가 바뀌는 변경: 공개 시그니처, 제네릭, 유니온 좁히기, any/단언 도입, Promise 조합·에러 전파. 단순 문자열·스타일 변경에는 켜지 않는다",
+  "default": false,
+  "launchers": {
+    "claude": "claude",
+    "codex": "codex",
+    "grok": "grok"
+  },
+  "spawn": true,
+  "to": "reviewer",
+  "stream": "reviewer-typescript",
+  "reply_type": "code_review",
+  "finding_field": "location",
+  "prompt": "typescript-reviewer.md",
+  "solo": true
+}

@@ -1,0 +1,7 @@
+{
+  "PJ_VAULT": "~/.local/share/pj",
+  "PJ_REPOS_ROOT": "~/projects",
+  "PJ_WORKTREE_ROOT": "~/worktrees",
+  "PJ_ALIASES": "~/.config/pj/repo-aliases.local.json",
+  "PJ_CMUX_REGISTRY_ROOT": "/tmp/cmux-agents"
+}

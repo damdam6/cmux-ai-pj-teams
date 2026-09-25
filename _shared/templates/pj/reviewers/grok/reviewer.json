@@ -1,0 +1,18 @@
+{
+  "title": "Grok 리뷰어 — 독립 교차 검증·경계 조건·실패 경로",
+  "when": "사용자가 Grok 리뷰어 추가, Grok 교차 검증, 또는 기존 코드 리뷰와 함께 Grok의 독립 검토를 요청했을 때 켠다. 기존 코드 리뷰어의 모델만 Grok으로 바꾸라는 요청과 구분한다",
+  "default": false,
+  "launchers": {
+    "claude": "grok",
+    "codex": "grok",
+    "grok": "grok"
+  },
+  "spawn": true,
+  "to": "reviewer",
+  "stream": "reviewer-grok",
+  "reply_type": "code_review",
+  "finding_field": "location",
+  "prompt": "grok-reviewer.md",
+  "solo": true,
+  "default_launcher": "grok"
+}

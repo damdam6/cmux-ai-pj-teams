@@ -1,0 +1,17 @@
+{
+  "title": "보안 리뷰어 — 인증·권한·입력 경계·주입·시크릿",
+  "when": "인증/권한 경로, 요청 바디·쿼리 파라미터를 새로 받는 엔드포인트, raw 쿼리($queryRaw·Cypher), 파일 업로드, 외부 HTTP 호출, 사용자 입력이 HTML/마크다운으로 렌더되는 경로, 시크릿·토큰 취급 코드를 건드리면 켠다",
+  "default": false,
+  "launchers": {
+    "claude": "claude",
+    "codex": "codex",
+    "grok": "grok"
+  },
+  "spawn": true,
+  "to": "reviewer",
+  "stream": "reviewer-security",
+  "reply_type": "code_review",
+  "finding_field": "location",
+  "prompt": "security-reviewer.md",
+  "solo": true
+}

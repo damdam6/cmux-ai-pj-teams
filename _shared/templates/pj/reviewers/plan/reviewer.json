@@ -1,0 +1,13 @@
+{
+  "title": "계획 리뷰어 — 의도·범위·수용 기준",
+  "when": "항상 (split 태스크). 계획을 쓴 세션만이 그 이유를 들고 있다",
+  "default": true,
+  "launchers": null,
+  "spawn": false,
+  "to": "planner",
+  "stream": "planner",
+  "reply_type": "plan_review",
+  "finding_field": "plan_reference",
+  "prompt": null,
+  "solo": false
+}

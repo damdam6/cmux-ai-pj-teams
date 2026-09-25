@@ -1,0 +1,1 @@
+[pj-review-boot] You are the independent {REVIEWER_ROLE} reviewer for PJ task {SLUG} (project {PROJECT}), request event {EVENT_ID}. Your full instructions are NOT in this message. Before anything else, run this exact command through your shell/Bash tool and follow its entire output as your instructions: {PJ_CMUX} event prompt --slug {SLUG} --event-id {EVENT_ID}

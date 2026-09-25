@@ -1,0 +1,1 @@
+Recheck ONLY these findings: {FINDINGS}. Report each one only if it still stands, with its CURRENT severity — a finding you verified fixed is omitted, and an empty list means every rechecked finding is resolved. Do not re-list a resolved finding under its old severity: the worker reads severity as live state, and a stale `blocking` reopens a round that is done.

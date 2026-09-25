@@ -1,0 +1,16 @@
+{
+  "aliases": {
+    "example-frontend": {
+      "short": "FE",
+      "wtFolder": "frontend",
+      "linkPaths": [".claude/skills", ".codex/skills"],
+      "roleLaunchers": {}
+    },
+    "example-backend": {
+      "short": "BE",
+      "wtFolder": "backend",
+      "linkPaths": [".claude/skills", ".codex/skills"],
+      "roleLaunchers": {}
+    }
+  }
+}

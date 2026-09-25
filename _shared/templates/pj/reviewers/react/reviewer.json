@@ -1,0 +1,17 @@
+{
+  "title": "React 리뷰어 — 훅 정확성·렌더 성능·접근성",
+  "when": "FE 레포의 .tsx/.jsx 컴포넌트나 훅을 건드릴 때. 순수 유틸·타입·설정 변경에는 켜지 않는다",
+  "default": false,
+  "launchers": {
+    "claude": "claude",
+    "codex": "codex",
+    "grok": "grok"
+  },
+  "spawn": true,
+  "to": "reviewer",
+  "stream": "reviewer-react",
+  "reply_type": "code_review",
+  "finding_field": "location",
+  "prompt": "react-reviewer.md",
+  "solo": true
+}

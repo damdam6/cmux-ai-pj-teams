@@ -1,0 +1,22 @@
+{
+  "aliases": {
+    "example-backend": {
+      "short": "BE",
+      "wtFolder": "backend",
+      "linkPaths": [
+        ".claude/skills",
+        ".claude/settings.local.json",
+        ".codex"
+      ]
+    },
+    "example-frontend": {
+      "short": "FE",
+      "wtFolder": "frontend",
+      "linkPaths": [
+        ".claude/skills",
+        ".claude/settings.local.json",
+        ".codex"
+      ]
+    }
+  }
+}

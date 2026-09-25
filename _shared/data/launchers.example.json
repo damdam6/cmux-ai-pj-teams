@@ -1,0 +1,17 @@
+{
+  "claude": {
+    "runtime": "claude",
+    "argv": ["claude"],
+    "reviewOption": "claude"
+  },
+  "codex": {
+    "runtime": "codex",
+    "argv": ["codex"],
+    "reviewOption": "codex"
+  },
+  "grok": {
+    "runtime": "grok",
+    "argv": ["grok"],
+    "reviewOption": "grok"
+  }
+}
