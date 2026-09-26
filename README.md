@@ -1,10 +1,10 @@
-# cmux-ai-pj-teams 사용 가이드
+# cmux-ai-pj-teams
 
 PJ는 프로젝트 설계 → 태스크 등록 → 계획·구현·리뷰 → 프로젝트 브랜치 통합을 연결하는
 21개 스킬 묶음입니다. 하나의 프로젝트가 여러 Git 저장소를 포함할 수 있습니다.
 태스크 상태는 Markdown 파일, 세션 간 전달 내용은 JSONL 파일로 관리합니다.
 
-이 저장소의 루트가 PJ 패키지 루트입니다. `GUIDE.md`, `config.example.json`, `_shared/`,
+이 저장소의 루트가 PJ 패키지 루트입니다. `README.md`, `config.example.json`, `_shared/`,
 `pj/`와 `pj-*/` 폴더가 같은 위치에 있습니다. 전체를 함께 보관하세요. 각 스킬은 `_shared`의
 스크립트와 템플릿을 사용하므로 `SKILL.md`만 따로 복사하면 실행되지 않습니다.
 
@@ -479,7 +479,7 @@ worktree는 제거하되 브랜치는 보존합니다. workspace 자동 닫기�
 
 | 파일 | 용도 |
 |---|---|
-| [GUIDE.md](GUIDE.md) | 사용자 가이드·흐름·설정·파일 목록 |
+| [README.md](README.md) | 사용 방법·흐름·설정·파일 목록 |
 | [_shared/data/launchers.example.json](_shared/data/launchers.example.json) | 표준 CLI·리뷰 옵션 프로필 예시 |
 | [_shared/data/repo-aliases.example.json](_shared/data/repo-aliases.example.json) | 저장소별 약칭·worktree 폴더·링크·역할 프로필 예시 |
 | [_shared/data/servers.example.json](_shared/data/servers.example.json) | 로컬 서버·포트·DB 설정 예시 |

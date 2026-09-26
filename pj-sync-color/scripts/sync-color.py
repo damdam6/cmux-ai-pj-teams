@@ -28,7 +28,7 @@ _load_config()
 
 
 
-# Storage root is configurable; see GUIDE.md.
+# Storage root is configurable; see README.md.
 VAULT = pathlib.Path(os.environ.get("PJ_VAULT")
                      or pathlib.Path.home() / ".local" / "share" / "pj")
 TASKS_DIR = VAULT / "raw" / "tasks"

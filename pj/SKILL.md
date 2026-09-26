@@ -8,12 +8,12 @@ description: Install or inspect the complete PJ project/task workflow in a consu
 PJ tracks a project across one or more Git repositories, with board, planner, worker and reviewer
 sessions. Install this entire sibling set; individual skill folders are not standalone.
 
-Read [portable-setup.md](references/portable-setup.md) and the package [GUIDE.md](../GUIDE.md).
+Read [portable-setup.md](references/portable-setup.md) and the package [README.md](../README.md).
 Resolve this file's real path: its parent is `SKILL_DIR`, its parent's parent is `PJ_PACKAGE_ROOT`.
 The distribution lives wherever the user placed it; never assume a personal vault or checkout.
 
 1. Inspect `config.local.json` and the configured alias file. Explain missing values using the
-   guide's setup table; preserve choices already made. The package contains examples, not the
+   README's setup table; preserve choices already made. The package contains examples, not the
    user's repositories, credentials, tasks, or environment files.
 2. Install links in the requested consumer directory using the bundled installer:
 
@@ -38,7 +38,7 @@ The distribution lives wherever the user placed it; never assume a personal vaul
 Report installed/already-linked paths, conflicts, missing settings and verification results.
 Installing skills does not start work, register a project, install global hooks, or merge code.
 
-For routing, use the guide's complete flow graph and skill list. `pj-board-wt` creates the board
+For routing, use the README's complete flow graph and skill list. `pj-board-wt` creates the board
 worktrees; `pj-board` registers the project; `pj-archi` and `pj-task-plan` define work;
 `pj-task-regi` files it; `pj-task-start` starts it. `pj-kickoff` combines filing and starting.
 The task runs `pj-plan` → `pj-work` → optional `pj-simplify` → `pj-review` → `pj-done`.
